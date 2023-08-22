@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200;400&family=Roboto+Slab:wght@200&display=swap');
+
+:root{
+    --red:#EF233E;
+    --white:white;
+
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    background-color: #000814;
+    color: var(--white);
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.text-danger{
+    color: var(--red);
+}
+.nav-item a{
+    color: var(--white);
+}
+
+.nav-item a:hover{
+     color: var(--red)
+}
+.h-5{
+    min-height: 450px;
+}
+.profile{
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+    filter: drop-shadow(10px 10px 70px black );
+}
+.card img{
+    height: 300px;
+}
+
+.title{
+    color: var(--red);
+    text-align: center;
+}
+
+.icons i{
+    margin-left: 10px;
+    color: var(--red);
+}
+
+
+
+
